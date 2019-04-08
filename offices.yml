@@ -76,3 +76,23 @@ offices:
       state: PA
       zip: 15222
 
+  - 
+      name: Interstate Acquisition Services, a division of Century Engineering, Inc.
+      street: 5 Interplex Drive, Suite 205
+      city: Trevose
+      state: PA
+      zip: 19053-6968
+
+  -
+      name: Interstate Acquisition Services, a division of Century Engineering, Inc.
+      street: 10 Zions Church Road, Suite 204
+      city: Shoemakersville
+      state: PA
+      zip: 19555-9500
+
+  -
+      name: Interstate Acquisition Services, a division of Century Engineering, Inc.
+      street: 200 North Front Street, Suites 102-103
+      city: Philipsburg
+      state: PA
+      zip: 16866
