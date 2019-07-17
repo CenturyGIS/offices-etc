@@ -96,3 +96,16 @@ offices:
       city: Philipsburg
       state: PA
       zip: 16866
+
+  -
+      name: NXL, a division of Century Engineering, Inc.
+      street: 114 E. Cary Street
+      city: Richmond
+      state: VA
+      zip: 23219
+
+  -
+      name: NXL, a division of Century Engineering, Inc.
+      city: Christianburg
+      state: VA
+      zip: 22031

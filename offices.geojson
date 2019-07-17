@@ -238,6 +238,39 @@
           40.89729699999999
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NXL, a division of Century Engineering, Inc.",
+        "street": "114 E. Cary Street",
+        "city": "Richmond",
+        "state": "VA",
+        "zip": 23219
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.44347599999999,
+          37.5414199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NXL, a division of Century Engineering, Inc.",
+        "city": "Christianburg",
+        "state": "VA",
+        "zip": 22031
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2577571,
+          38.864187
+        ]
+      }
     }
   ]
 }
