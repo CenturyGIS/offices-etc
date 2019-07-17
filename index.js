@@ -14,7 +14,7 @@ const promises = offices.map((o) => {
   return request({
     url: 'https://maps.googleapis.com/maps/api/geocode/json',
     qs: {
-      address: `${o.address}, ${o.zip}`,
+      address: `${o.street}, ${o.zip}`,
       key: process.env.GOOGLE_GEOCODER_API_KEY,
     },
   });
