@@ -12,10 +12,19 @@ const geoJson = {
   features: [],
 };
 const promises = offices.map((o) => {
+
+  // NOTE: filter statement is akin to _.compact
+  const address = [
+    o.street,
+    o.zip,
+  ]
+    .filter(Boolean)
+    .join(', ');
+
   return request({
     url: 'https://maps.googleapis.com/maps/api/geocode/json',
     qs: {
-      address: `${o.street}, ${o.zip}`,
+      address,
       key: process.env.GOOGLE_GEOCODER_API_KEY,
     },
   });
