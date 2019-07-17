@@ -1,3 +1,4 @@
+require('dotenv').config();
 const util = require('util');
 const request = util.promisify(require('request'));
 const fs   = require('fs');
@@ -23,7 +24,7 @@ const promises = offices.map((o) => {
 Promise.all(promises)
   .then((results) => {
     results.forEach(({ body }, i) => {
-      const { results: [ { geometry: { location } }, ...others ]} = JSON.parse(body);
+      const { results: [ { geometry: { location } } ]} = JSON.parse(body);
       const o = offices[i];
       geoJson.features.push({
         type: 'Feature',
