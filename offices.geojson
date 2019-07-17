@@ -22,7 +22,7 @@
       "type": "Feature",
       "properties": {
         "name": "Dover, DE",
-        "street": "4134 N. Dupont Highway",
+        "street": "550 Bay Road",
         "city": "Dover",
         "state": "DE",
         "zip": 19901
@@ -30,8 +30,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.45777749999999,
-          39.2081349
+          -75.5102302,
+          39.1544719
         ]
       }
     },
